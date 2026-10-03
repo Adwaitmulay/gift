@@ -1,0 +1,1 @@
+Use the pigeon from the left side and bouquet from the right side as replacement art. If you upload your full website project, the assets can be integrated automatically.

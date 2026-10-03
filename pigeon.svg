@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 240">
+<defs>
+ <radialGradient id="body" cx="38%" cy="25%"><stop offset="0" stop-color="#6e8190"/><stop offset=".5" stop-color="#465866"/><stop offset="1" stop-color="#293944"/></radialGradient>
+ <radialGradient id="neck" cx="35%" cy="25%"><stop offset="0" stop-color="#7e91a0"/><stop offset=".48" stop-color="#405b67"/><stop offset="1" stop-color="#263842"/></radialGradient>
+ <linearGradient id="wing" x2="0" y2="1"><stop stop-color="#718391"/><stop offset="1" stop-color="#354752"/></linearGradient>
+ <linearGradient id="beak" x2="0" y2="1"><stop stop-color="#f1d7bb"/><stop offset="1" stop-color="#b88769"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<ellipse cx="130" cy="224" rx="70" ry="8" fill="#493c35" opacity=".15" filter="url(#shadow)"/>
+<!-- adult, masculine pigeon silhouette -->
+<path d="M72 118 C30 105 20 73 39 50 C63 58 84 80 96 108Z" fill="url(#wing)" stroke="#2d414d" stroke-width="3"/>
+<path d="M188 118 C230 105 240 73 221 50 C197 58 176 80 164 108Z" fill="url(#wing)" stroke="#2d414d" stroke-width="3"/>
+<path d="M48 61 C63 72 76 88 83 104 M212 61 C197 72 184 88 177 104" fill="none" stroke="#9aa8b0" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+<ellipse cx="130" cy="137" rx="66" ry="75" fill="url(#body)"/>
+<!-- subtle iridescent neck -->
+<ellipse cx="130" cy="112" rx="50" ry="47" fill="url(#neck)"/>
+<path d="M91 107 Q130 124 169 107" fill="none" stroke="#657e72" stroke-width="13" opacity=".55"/>
+<path d="M99 119 Q130 132 161 119" fill="none" stroke="#755b78" stroke-width="9" opacity=".45"/>
+<!-- head -->
+<circle cx="130" cy="68" r="51" fill="#667b88"/>
+<path d="M91 49 Q130 22 169 49" fill="none" stroke="#91a1aa" stroke-width="7" stroke-linecap="round" opacity=".55"/>
+<!-- eyes: mature, alert -->
+<circle cx="108" cy="68" r="17" fill="#dfe5e7"/>
+<circle cx="152" cy="68" r="17" fill="#dfe5e7"/>
+<circle cx="108" cy="69" r="10" fill="#202a31"/>
+<circle cx="152" cy="69" r="10" fill="#202a31"/>
+<circle cx="111" cy="65" r="3.5" fill="#fff"/><circle cx="155" cy="65" r="3.5" fill="#fff"/>
+<!-- beak -->
+<path d="M114 83 L130 77 L146 83 L133 101 Q130 105 127 101Z" fill="url(#beak)" stroke="#9d765f" stroke-width="1.5"/>
+<path d="M119 88 L141 88" stroke="#8b6856" stroke-width="2"/>
+<!-- tail -->
+<path d="M91 193 L67 222 Q91 214 108 202 L130 220 L152 202 Q169 214 193 222 L169 193Z" fill="#354752" stroke="#293944" stroke-width="2"/>
+<!-- feet -->
+<path d="M111 197 Q106 211 113 218 M149 197 Q154 211 147 218" fill="none" stroke="#b26f63" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360">
+<defs>
+ <linearGradient id="wrap" x2="0" y2="1"><stop stop-color="#fff7ef"/><stop offset="1" stop-color="#e7d2be"/></linearGradient>
+ <radialGradient id="pink"><stop stop-color="#ffd7df"/><stop offset=".55" stop-color="#f59aae"/><stop offset="1" stop-color="#d85f7c"/></radialGradient>
+ <radialGradient id="cream"><stop stop-color="#fffdf7"/><stop offset=".6" stop-color="#f6e6ce"/><stop offset="1" stop-color="#dfc39e"/></radialGradient>
+ <radialGradient id="peach"><stop stop-color="#ffe1cf"/><stop offset=".6" stop-color="#f7b18f"/><stop offset="1" stop-color="#db8068"/></radialGradient>
+ <filter id="s"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-opacity=".18"/></filter>
+</defs>
+<!-- greenery -->
+<g fill="none" stroke="#668d69" stroke-width="5" stroke-linecap="round">
+<path d="M155 240 Q120 160 75 120"/><path d="M164 245 Q200 160 250 116"/><path d="M150 244 Q145 135 155 76"/><path d="M170 245 Q222 196 278 190"/><path d="M143 245 Q93 198 43 186"/>
+</g>
+<g fill="#9bbd9a" opacity=".95">
+<ellipse cx="74" cy="126" rx="13" ry="6" transform="rotate(35 74 126)"/><ellipse cx="101" cy="157" rx="14" ry="6" transform="rotate(35 101 157)"/>
+<ellipse cx="246" cy="124" rx="14" ry="6" transform="rotate(-35 246 124)"/><ellipse cx="220" cy="156" rx="14" ry="6" transform="rotate(-35 220 156)"/>
+<ellipse cx="156" cy="92" rx="13" ry="6"/><ellipse cx="154" cy="122" rx="13" ry="6"/>
+<ellipse cx="273" cy="190" rx="14" ry="6" transform="rotate(-15 273 190)"/><ellipse cx="49" cy="188" rx="14" ry="6" transform="rotate(15 49 188)"/>
+</g>
+<!-- flowers -->
+<g filter="url(#s)">
+<!-- roses -->
+<g transform="translate(92 132)"><circle r="28" fill="url(#pink)"/><path d="M-13 3 Q0 -15 14 2 Q0 15 -13 3 M-7 -4 Q0 8 8 -4" fill="none" stroke="#d86582" stroke-width="4"/></g>
+<g transform="translate(155 102)"><circle r="30" fill="url(#pink)"/><path d="M-14 4 Q0 -16 15 3 Q0 16 -14 4 M-7 -5 Q0 8 8 -5" fill="none" stroke="#d86582" stroke-width="4"/></g>
+<g transform="translate(220 142)"><circle r="29" fill="url(#peach)"/><path d="M-14 4 Q0 -16 15 3 Q0 16 -14 4 M-7 -5 Q0 8 8 -5" fill="none" stroke="#d67e67" stroke-width="4"/></g>
+<g transform="translate(135 165)"><circle r="31" fill="url(#cream)"/><path d="M-14 4 Q0 -16 15 3 Q0 16 -14 4 M-7 -5 Q0 8 8 -5" fill="none" stroke="#d9b98f" stroke-width="4"/></g>
+<g transform="translate(192 178)"><circle r="26" fill="url(#pink)"/><path d="M-12 3 Q0 -14 13 2 Q0 14 -12 3 M-6 -4 Q0 7 7 -4" fill="none" stroke="#d86582" stroke-width="4"/></g>
+<!-- daisies -->
+<g fill="#fffdf5"><circle cx="58" cy="158" r="13"/><circle cx="58" cy="145" r="7"/><circle cx="58" cy="171" r="7"/><circle cx="45" cy="158" r="7"/><circle cx="71" cy="158" r="7"/></g><circle cx="58" cy="158" r="7" fill="#e9c85e"/>
+<g fill="#fffdf5"><circle cx="255" cy="174" r="13"/><circle cx="255" cy="161" r="7"/><circle cx="255" cy="187" r="7"/><circle cx="242" cy="174" r="7"/><circle cx="268" cy="174" r="7"/></g><circle cx="255" cy="174" r="7" fill="#e9c85e"/>
+<!-- tiny filler -->
+<g fill="#e8a0b1"><circle cx="82" cy="184" r="5"/><circle cx="93" cy="176" r="4"/><circle cx="230" cy="194" r="5"/><circle cx="241" cy="186" r="4"/><circle cx="118" cy="109" r="4"/><circle cx="205" cy="116" r="4"/></g>
+</g>
+<!-- wrap -->
+<path d="M52 205 Q160 245 268 205 L230 338 Q160 300 90 338 Z" fill="url(#wrap)" stroke="#d8c1aa" stroke-width="3"/>
+<path d="M84 221 Q160 254 236 221" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+<path d="M153 267 L166 345 L178 267" fill="#d7bca4"/>
+<path d="M145 267 Q160 280 175 267" fill="none" stroke="#d48a91" stroke-width="9"/>
+<path d="M157 276 Q135 302 109 294" fill="none" stroke="#d48a91" stroke-width="8" stroke-linecap="round"/>
+<path d="M164 277 Q190 302 215 293" fill="none" stroke="#d48a91" stroke-width="8" stroke-linecap="round"/>
+</svg>
